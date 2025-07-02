@@ -252,3 +252,7 @@ doctype_js = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {'dt':'Custom Field','filters': [['module','=','Warranty Digeesh']]},
+    {'dt':'Property Setter','filters': [['module','=','Warranty Digeesh']]}
+    ]
